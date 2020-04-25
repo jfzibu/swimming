@@ -1,0 +1,605 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+    width: 1140px;
+    ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+.col-md-12 {
+    width: 100%;
+    float: left;
+}
+
+
+/* header Section start*/
+
+.header-section {
+    width: 100%;
+    float: left;
+    background: url(../image/header.png) center top no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+.header-section .bg-light {
+    background-color: transparent !important;
+}
+
+.header-section .navbar-brand img {
+    width: 100px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 0px 0px 60px;
+    text-transform: uppercase;
+}
+
+.banner {
+    width: 100%;
+    padding: 0px 0px 100px;
+    margin: 0px;
+    position: relative;
+}
+
+.banner-inner {
+    width: 100%;
+    padding: 90px 0px 60px;
+}
+
+.banner img {
+    float: left;
+    margin-right: 0px;
+    margin-top: 180px;
+    height: 15px;
+    width: 15px;
+}
+
+.banner-inner h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 80px: 0px;
+}
+
+.banner-inner .shape {
+    width: 5%;
+    height: 5px;
+    background-color: #e550ed;
+    margin: 0px auto;
+}
+
+.banner-inner h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.banner-inner h6 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.banner-inner h6 span {
+    color: #016b7c;
+    text-align: right;
+}
+
+.banner-inner .btn-info {
+    font-size: 20px;
+    font-weight: 500;
+    background: #e550ed;
+    color: #fff;
+    border: #f2f2f2 border: 1px solid #f2f2f2;
+    padding: 15px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+/* design Section start*/
+
+.design {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 60px 0px;
+    display: inline-block;
+}
+
+.inner-design {
+    width: 98%;
+    padding: 10px 20px;
+    float: left;
+}
+
+.inner-design img {
+    display: inline-block;
+    margin-bottom: 30px;
+    height: 60px;
+}
+
+.inner-design h4 {
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.inner-design p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.group {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background-color: #432e8b;
+}
+
+.inner-group {
+    width: 100%;
+    padding: 20px;
+    float: left;
+}
+
+.inner-group img {
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+
+.title-group {
+    width: 100%;
+    padding: 30px 0px;
+    float: left;
+}
+
+.group .title-group {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.group .inner-group h1 {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #00dde4;
+    margin-top: 20px;
+    vertical-align: 25px;
+}
+
+.group .inner-group p {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    color: #f6f5f9;
+    vertical-align: 45px;
+}
+
+.group .inner-group .btn-info {
+    font-size: 20px;
+    font-weight: 500;
+    background: #e550ed;
+    color: #fff;
+    border: #f2f2f2 border: 1px solid #f2f2f2;
+    padding: 15px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-section {
+    width: 100%;
+    padding: 90px 0px;
+    float: left;
+    background-color: #fff;
+}
+
+.about-section .shape {}
+
+.about-section .shape img {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-section h1 {
+    color: #00dde4;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-section h4 {
+    color: #444444;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about-section p {
+    color: #444444;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    vertical-align: 10px;
+}
+
+.about-section .btn-info {
+    font-size: 20px;
+    font-weight: 500;
+    background: #e550ed;
+    color: #fff;
+    border: #f2f2f2 border: 1px solid #f2f2f2;
+    padding: 15px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.ins-section {
+    width: 100%;
+    float: left;
+    padding: 90px 0px;
+    background-color: #432e8b;
+    position: relative;
+}
+
+.ins-section .title-ins {
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+
+.ins-section .title-ins h1 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.ins-section .carousel-inner h5 {
+    width: 100%;
+    float: left;
+}
+
+.ins-section .rectangle {
+    width: 40%;
+    height: 300px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 180px;
+    padding-right: 8px;
+    padding-top: 59px;
+    position: absolute;
+    margin-top: 1100px;
+    background-color: #00dde4;
+}
+
+.ins-section .carousel-caption h5 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ins-section .socialmedia {
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+}
+
+.ins-section .socialmedia i {
+    padding: 10px 10px;
+    color: #432e8b;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.client-re {
+    width: 100%;
+    padding: 140px 0px;
+    float: left;
+    background: url(../image/gfly.png) center top no-repeat;
+    background-size: cover;
+}
+
+.client-re .title-client {
+    width: 100%;
+    padding: 0px 0px 90px;
+}
+
+.client-re .title-client h1 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #00dde4;
+}
+
+.client-re .title-client p {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #c7ccdb;
+}
+
+.client-re .radio {
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00dde4;
+}
+
+.gallery-section {
+    display: inline-block;
+    position: relative;
+    padding: 40px 0px;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 380px;
+}
+
+.gallery-section .gallery-inner {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.gallery-section .gallery-inner img {
+    width: 100%;
+    height: 400px;
+    float: left;
+    vertical-align: center;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.gallery-title {
+    width: 100%;
+    float: left;
+}
+
+.gallery-section .gallery-title h1 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #00dde4;
+    margin: 50px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mobile-section {
+    width: 100%;
+    float: left;
+    padding: 0px 0px 0px;
+}
+
+.mobile-title {
+    width: 100%;
+    float: left;
+}
+
+.mobile-section .mobile-inner {
+    width: 100%;
+    float: left;
+    padding: 30px 0px 0px;
+}
+
+.mobile-section img {
+    width: 100%;
+    float: left;
+}
+
+.mobile-section .mobile-title h4 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.reg-section {
+    width: 100%;
+    float: left;
+    background: url(../image/lastp.png) center top no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+}
+
+.reg-inner {
+    width: 100%;
+    padding: 90px 0px 60px;
+}
+
+.reg-section .reg-inner h1 {
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #00dde4;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.reg-inner h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.port-hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #e550ed;
+    opacity: 0.7;
+}
+
+.reg-section:hover .port-hover {
+    display: block;
+    transition: 1sec;
+}
+
+.reg-inner .btn-info {
+    font-size: 20px;
+    font-weight: 500;
+    background: #00dde4;
+    color: #fff;
+    border: #f2f2f2 border: 1px solid #f2f2f2;
+    padding: 15px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.footer-section {
+    width: 100%;
+    float: left;
+    background-color: #432e8b;
+    background-size: cover;
+    position: relative;
+    padding: 30px 30px;
+}
+
+.footer-hero {
+    width: 100%;
+    float: left;
+}
+
+.footer-hero h1 {
+    color: #00dde4;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.footer-hero h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.footer-hero img {
+    align-items: right;
+    float: left;
+}
+
+.footer-ex {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.footer-ex h3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #00dde4;
+    text-transform: uppercase;
+}
+
+.footer-ex h6 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 65px;
+}
+
+.footer-find {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.footer-find h3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #00dde4;
+    text-transform: uppercase;
+}
+
+.footer-find h6 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
